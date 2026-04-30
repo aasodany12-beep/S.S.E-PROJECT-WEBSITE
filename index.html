@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Welcome</h1>
+
+    <!-- Save the magazine cover image file here as magazine-cover.png -->
+    <img src="magazine-cover.png"
+         alt="Magazine cover for Emotional Intelligence"
+         width="300"
+         height="500">
+    
+    <h1> Emotional Intelligence </h1>
+
+    <h2> Body 1: Self- Awareness</h2>
+<p> We often spend our days studying the world around us while remaining strangers to the person in the mirror. Psychologists now suggest that self-awareness—the quiet ability to recognize our own feelings as they happen—is the true foundation of emotional intelligence.
+It is more than just a passing mood. It is an honest internal check-in that happens before we speak or act. By tuning into our emotional state, we stop reacting to life’s stressors on autopilot and begin navigating our lives with more control and understanding.
+</p>
+
+<h2>Body 2: Managing Emotions</h2>
+<p> Self-awareness involves recognizing emotions as they occur, rather than after we have already reacted. One way to develop this skill is by identifying triggers. A trigger is anything that sets off an emotion such as anger, sadness, stress, or anxiety. For example, being ignored by a friend might cause feelings of hurt. It is also important to notice patterns in behavior, such as realizing, “I always get quiet when I’m upset.” Developing self-awareness requires honesty and the willingness to acknowledge emotions instead of denying them. Without this awareness, emotions can feel automatic and difficult to control.
+</p>
+
+    <h2>Body 3: Importance</h2>
+    <p>Emotional intelligence involves understanding what you are feeling, why you are feeling it, and how to manage those emotions. Self-awareness is a key part of this process because it directly influences thoughts and actions. When you are self-aware, you can recognize emotions in the moment—for instance, realizing you feel nervous because you are worried about a test, or noticing that certain situations lead to predictable reactions. Instead of responding automatically, self-awareness allows you to pause and understand what is happening internally. This makes it possible to respond calmly rather than react impulsively. In addition, understanding your own emotions can help you better understand others, leading to stronger and healthier relationships.
+        </p>
+
+        <h2>Conclusion</h2>
+        <p>In conclusion, self-awareness is the foundation of emotional intelligence. By learning to recognize our feelings before reacting, we become more capable of managing our behavior and understanding others. When we learn to listen to our inner voice, we are better prepared to face the world around us. 
+</p>
+
+<h2>Survey</h2>
+
+<h3>True or False</h3>
+<p>1.Emotional intelligence includes the ability to recognize your own emotions.</p>
+<label><input type="radio" name="q1" value="true"> True</label>
+<label><input type="radio" name="q1" value="false"> False</label>
+<br><br>
+<p>2. People with high emotional intelligence never experience negative emotions.</p>
+<label><input type="radio" name="q2" value="true"> True</label>
+<label><input type="radio" name="q2" value="false"> False</label>
+<br><br>
+
+<p>3. Empathy is a key component of emotional intelligence.</p>
+<label><input type="radio" name="q3" value="true"> True</label>
+<label><input type="radio" name="q3" value="false"> False</label>
+<br><br>
+<p>4. Emotional intelligence is only useful in personal relationships, not at work.</p>
+<label><input type="radio" name="q4" value="true"> True</label>
+<label><input type="radio" name="q4" value="false"> False</label>
+<br><br>
+
+<p>5. Self-regulation means managing your reactions instead of acting impulsively.</p>
+<label><input type="radio" name="q5" value="true"> True</label>
+<label><input type="radio" name="q5" value="false"> False</label>
+
+<hr>
+
+<h3>Multiple Choice</h3>
+
+<p>6. Which of the following is NOT a component of emotional intelligence?</p>
+<label><input type="radio" name="q6" value="A"> A. Self-awareness</label><br>
+<label><input type="radio" name="q6" value="B"> B. Social skills</label><br>
+<label><input type="radio" name="q6" value="C"> C. Emotional suppression</label><br>
+<label><input type="radio" name="q6" value="D"> D. Empathy</label><br><br>
+
+<p>7. What does empathy allow you to do?</p>
+<label><input type="radio" name="q7" value="A"> A. Control other people's emotions</label><br>
+<label><input type="radio" name="q7" value="B"> B. Understand and share the feelings of others</label><br>
+<label><input type="radio" name="q7" value="C"> C. Avoid emotional situations</label><br>
+<label><input type="radio" name="q7" value="D"> D. Ignore emotional cues</label><br><br>
+
+<p>8. Someone with strong self-regulation is most likely to:</p>
+<label><input type="radio" name="q8" value="A"> A. React without thinking</label><br>
+<label><input type="radio" name="q8" value="B"> B. Blame others</label><br>
+<label><input type="radio" name="q8" value="C"> C. Pause and choose a thoughtful response</label><br>
+<label><input type="radio" name="q8" value="D"> D. Avoid expressing emotions</label><br><br>
+
+<p>9. Which skill helps build healthy relationships?</p>
+<label><input type="radio" name="q9" value="A"> A. Interrupting others</label><br>
+<label><input type="radio" name="q9" value="B"> B. Active listening</label><br>
+<label><input type="radio" name="q9" value="C"> C. Making assumptions</label><br>
+<label><input type="radio" name="q9" value="D"> D. Avoiding communication</label><br><br>
+
+<p>10. Motivation in emotional intelligence refers to:</p>
+<label><input type="radio" name="q10" value="A"> A. Wanting to impress others</label><br>
+<label><input type="radio" name="q10" value="B"> B. Being driven by internal goals and values</label><br>
+<label><input type="radio" name="q10" value="C"> C. Competeing with others emotionally</label><br>
+<label><input type="radio" name="q10" value="D"> D. Avoiding challenges</label><br><br>
+
+<button onclick="checkQuiz()">Submit Quiz</button>
+
+<h2 id="result"></h2>
+
+<img src="Game.jpeg"
+     alt="Game image"
+     width="300"
+     height="400">
+
+<img src="comic.jpeg"
+     alt="Comic image"
+     width="360"
+     height="480">
+
+<script>
+    function checkQuiz()  {
+        let score = 0;
+
+        const answers = {
+            q1:"true",
+            q2:"false",
+            q3:"true",
+            q4:"false",
+            q5:"true",
+            q6:"C",
+            q7:"B",
+            q8:"C",
+            q9:"B",
+            q10:"B"
+        };
+
+        for (let q in answers) {
+            let selected = document.querySelector(`input[name="${q}"]:checked`);
+            if (selected && selected.value === answers[q]) {
+                score++;
+            }
+        }
+        document.getElementById("result").innerText =
+            "Your score is " + score + " / 10";
+    }
+</script>
+
+</body>
+</html>
